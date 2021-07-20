@@ -8,7 +8,7 @@ import StartGameScreen from './screens/StartGameScreen.js';
 
 
 export default function App() {
-  const appTitle = "Guess The Number"
+  const appTitle = "Guess The Number";
 
   return (
     <View style={styles.container}>

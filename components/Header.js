@@ -1,13 +1,16 @@
 import React from 'react';
 import { View, StyleSheet, Text, Image } from 'react-native';
-import Cup from '../assets/drink.png';
+import cup from '../assets/drink.png';
+import colors from '../constants/colors.js';
+import text from '../constants/text.js';
+import icon from '../constants/icon.js';
 
 
 const Header = (props) => {
   return (
     <View style={styles.header}>
       <Text style={styles.headerText}>{props.title}</Text>
-      <Image source={Cup} style={styles.headerIcon} />
+      <Image source={cup} style={styles.headerIcon} />
     </View>
   );
 }
@@ -17,19 +20,18 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 90,
     paddingTop: 36,
-    backgroundColor: '#ff6347',
+    backgroundColor: colors.primary,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center'
   },
 
   headerText: {
-    fontSize: 20
+    ...text.h1
   },
 
   headerIcon: {
-    width: 20,
-    height: 20,
+    ...icon.h1,
     marginLeft: 3
   }
 });
