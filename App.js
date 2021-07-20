@@ -1,13 +1,14 @@
+// core
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
+// components
 import Header from './components/Header.js';
 import StartGameScreen from './screens/StartGameScreen.js';
 
 
-
-export default function App() {
+const App = () => {
   const appTitle = "Guess The Number";
 
   return (
@@ -26,3 +27,5 @@ const styles = StyleSheet.create({
     flex: 1
   }
 });
+
+export default App;

@@ -1,5 +1,8 @@
+// core
 import React from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
+
+// constants
 import text from '../constants/text.js';
 
 

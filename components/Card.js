@@ -1,3 +1,4 @@
+// core
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
@@ -16,8 +17,9 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.3,
     shadowRadius: 7,
-    elevation: 10,
-    padding: 10
+    elevation: 4,
+    padding: 20,
+    borderRadius: 10
   }
 });
  

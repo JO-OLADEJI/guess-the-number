@@ -1,6 +1,11 @@
+// core
 import React from 'react';
 import { View, StyleSheet, Text, Image } from 'react-native';
+
+// assets
 import cup from '../assets/drink.png';
+
+// constants
 import colors from '../constants/colors.js';
 import text from '../constants/text.js';
 import icon from '../constants/icon.js';
